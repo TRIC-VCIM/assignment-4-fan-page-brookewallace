@@ -1,0 +1,104 @@
+body {
+  background-color: antiquewhite;
+  justify-content: center
+}
+.wrapper {
+  float: left;
+  margin: 10px 25px;
+}
+
+.flex-container {
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 350px;
+  background-color: lightpink;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px
+}
+
+header {
+  text-align: center;
+  justify-content: center;
+  background-color: pink;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #66182b;
+  width: 10%;
+  height:115px;
+  font-size: 20px;
+  display: inline-block;
+  margin: 1px;
+  padding: 2px;
+}
+
+.section1 {
+  color: #d6766b;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 12px;
+}
+
+.section2 {
+  background-color: seashell;
+  color: #66182b;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  display: block;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.section3 {
+  background-color: seashell;
+  color: #66182b;
+  float: left;
+  padding: 1px 10px 5px;
+  margin: 20px;
+  display: inline-block;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.section4 {
+  background-color:#d6766b;
+  color: white;
+  font-size: 12px;
+  line-height: 8px;
+  padding: 10px;
+}
+.clear {
+  clear: both;
+}
+
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+}
+
+.pclass1 {
+  font-family: 'Sulphur Point', sans-serif;
+  color: white;
+  margin: 10px;
+  line-height: 24px;
+}
+
+footer {
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+article {
+  background-color: #d6766b;
+  padding: 10px
+}
